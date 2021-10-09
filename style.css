@@ -1,0 +1,50 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7jeS7HwSaTqfzERVG1EWpSdyyIxC-_368bg&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+#container
+{
+    width: 320px;
+    height: 520px;
+    background-color:white;
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+}
+#calculator
+{
+    width:320px;
+    height: 530px;
+    background-color:white;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.2);
+
+}
+input[type = "button"]
+{
+  background-color:white;
+  border-radius: 80px; 
+  border: white;
+  height: 100px;
+  width: 75px;
+  float: auto;
+  padding: 5px 5px 5px 5px;
+}
+
+input[type = "text"]
+{
+  background-color: white;
+  height: 120px;
+  border-radius: 20px;
+  width: 220px;
+  margin-left: 2px;
+  text-align: right;
+}
